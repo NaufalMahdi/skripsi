@@ -9,9 +9,9 @@ class Post extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['title', 'excerpt', 'body'];
-    protected $guarded = ['id'];
-    protected $with = ['kategori'];
+    protected $fillable = ['kategori_id', 'user_id', 'slug', 'title', 'excerpt', 'body'];
+    // protected $guarded = ['id'];
+    // protected $with = ['kategori'];
 
     public function kategori()
     {
