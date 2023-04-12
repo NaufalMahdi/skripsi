@@ -14,7 +14,7 @@
     <section id="about" class="about">
         <div class="container">
 
-            <div class="row">
+            <div class= "row">
                 <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
                     <img src="assets/img/5.jpg" class="img-fluid" alt="">
                 </div>
@@ -172,11 +172,11 @@
         <div class="container" data-aos="zoom-in">
 
             <div class="text-center">
-                <h3>Call To Action</h3>
+                <h3>LAYANAN</h3>
                 <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                     mollit anim id est laborum.</p>
-                <a class="cta-btn" href="#">Call To Action</a>
+                <a class="cta-btn" href="#">KLIK DISINI</a>
             </div>
 
         </div>
