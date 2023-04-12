@@ -1,9 +1,10 @@
 @extends('layouts.main')
 
 @section('content')
+
     <div class="row justify-content-center">
         <div class="col-md-4">
-
+            <div style="width:100%;height:800px;">
             @if (session()->has('success'))
                 <div class="alert alert-success alert-dismissible fade show" role="alert">
                     {{ session('success') }}

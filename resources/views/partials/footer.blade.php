@@ -15,9 +15,9 @@
                             <strong>Email:</strong> info@smpn1jember.com<br>
                         </p>
                         <div class="social-links mt-3">
-                            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                            <a href="https://www.youtube.com/@exhibitionofsmpn01jember91" class="youtube"><i class="bx bxl-youtube"></i></a>
+                            <a href="https://www.facebook.com/SMPN-1-Jember-455192411224571" class="facebook"><i class="bx bxl-facebook"></i></a>
+                            <a href="https://www.instagram.com/osismpkspasa" class="instagram"><i class="bx bxl-instagram"></i></a>
                             <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
                             <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
                         </div>

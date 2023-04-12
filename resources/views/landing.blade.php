@@ -172,10 +172,10 @@
         <div class="container" data-aos="zoom-in">
 
             <div class="text-center">
-                <h3>LAYANAN</h3>
-                <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum.</p>
+                <h3>LAYANAN PUBLIK</h3>
+                <p> Layanan Legalisir Ijazah, Layanan Surat Ijin, Layanan Surat Keterangan Aktif, 
+                    Layanan Surat Rekomendasi, NISN.
+                    </p>
                 <a class="cta-btn" href="#">KLIK DISINI</a>
             </div>
 

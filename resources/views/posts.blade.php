@@ -10,6 +10,7 @@
             <div class="card-body text-center">
                 <h3 class="card-title"><a href="/posts/{{ $posts[0]->slug }}"
                         class="text-decoration-none text-dark">{{ $posts[0]->title }}</a></h3>
+                        <div style="width:100%;height:200px;">
                 <p>
                     <small class="text-muted">
                         Kategori : <a href="/kategories/{{ $posts[0]->kategori->slug }} ">{{ $posts[0]->kategori->name }}
@@ -51,8 +52,10 @@
                         </div>
                     </div>
                 </div>
-                
+
             @endforeach
         </div>
+    </div>
+    <div style="width:100%;height:200px;">
     </div>
 @endsection
