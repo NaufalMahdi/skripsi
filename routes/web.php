@@ -9,6 +9,7 @@ use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\DashboardPostController;
 use App\Http\Controllers\LandingPageController;
 use App\Http\Controllers\LayananController;
+use App\Http\Controllers\ModulPjjController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -71,3 +72,6 @@ route::get('/dashboard', function () {
 })->middleware('auth');
 
 Route::resource('/dashboard/posts', DashboardPostController::class)->middleware('auth');
+
+Route::get('/modulpjj', [ModulPjjController::class, 'index']);
+Route::get('/download/viewfile', [DownloadController::class, 'index']);

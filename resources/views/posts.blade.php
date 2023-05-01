@@ -4,9 +4,18 @@
     {{-- <h1 class="mb-5">PENGUMUMAN INFORMASI SMPN 1 JEMBER</h1> --}}
 
     @if ($posts->count())
+    <div class="container">
+        <div class="row">
         <div class="card mb-3">
-            <img src="https://source.unsplash.com/1200x400?{{ $posts[0]->kategori->name }}" class="card-img-top"
-                alt="{{ $posts[0]->kategori->name }}">
+        @if ($posts[0]->image)
+        <div style="max-height: 350px; overflow:hidden;">
+			<img src="{{ asset('storage/' . $posts[0]->image) }}" alt="{{ $posts[0]->kategori->name }}" class="img-fluid mt-3">
+        </div>
+		@else
+        <img src="https://source.unsplash.com/1200x400?{{ $posts[0]->kategori->name }}" class="card-img-top"
+        alt="{{ $posts[0]->kategori->name }}">
+		@endif
+            
             <div class="card-body text-center">
                 <h3 class="card-title"><a href="/posts/{{ $posts[0]->slug }}"
                         class="text-decoration-none text-dark">{{ $posts[0]->title }}</a></h3>
@@ -34,8 +43,15 @@
                     <div class="card">
                         <div class="position-absolute px-3 py-2 text-white" style="background-color: rgba(0, 0, 0, 0.7)">
                             {{ $post->kategori->name }}</div>
+                        @if ($post->image)
+			                <img src="{{ asset('storage/' . $post->image) }}" alt="{{ $post->kategori->name }}" class="img-fluid">
+
+			            @else
                         <img src="https://source.unsplash.com/500x400?{{ $post->kategori->name }}" class="card-img-top"
-                            alt="{{ $post->kategori->name }}">
+                        alt="{{ $post->kategori->name }}">
+
+			            @endif
+                        
                         <div class="card-body">
                             <h5 class="card-title">{{ $post->title }}</h5>
                             <p>

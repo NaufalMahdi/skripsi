@@ -42,17 +42,22 @@ class DashboardPostController extends Controller
      */
     public function store(Request $request)
     {
-        $validateData = $request->validate([
+        $validatedData = $request->validate([
             'title' => 'required|max:255',
             'slug' => 'required|unique:posts',
             'kategori_id' => 'required',
+            'image' => 'image|file|max:3024' ,
             'body' => 'required'
         ]);
 
-        $validateData['user_id'] = auth()->user()->id;
-        $validateData['excerpt'] = Str::limit(strip_tags($request->body), 200);
+        if($request->file('image')) {
+            $validatedData['image'] = $request->file('image')->store('post-image');
+        }
 
-        Post::create($validateData);
+        $validatedData['user_id'] = auth()->user()->id;
+        $validatedData['excerpt'] = Str::limit(strip_tags($request->body), 200);
+
+        Post::create($validatedData);
 
         return redirect('/dashboard/posts')->with('success', 'Berhasil di Tambahkan !');
     }

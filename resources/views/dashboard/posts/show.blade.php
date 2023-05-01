@@ -10,10 +10,17 @@
         <a href="" class="btn btn-warning"><span data-feather="edit"></span>Edit</a>
         <a href="" class="btn btn-danger"><span data-feather="x-circle"></span> Hapus</a>
 		
+			@if ($post->image)
+			<img src="{{ asset('storage/' . $post->image) }}" alt="{{ $post->kategori->name }}" class="img-fluid mt-3">
 
-			<img src="https://source.unsplash.com/1200x400?{{ $post->kategori->name }}" class="card-img-top" alt="{{ $post->kategori->name }}" class="img-fluid">
+			@else
+
+			<img src="https://source.unsplash.com/1200x400?{{ $post->kategori->name }}" alt="{{ $post->kategori->name }}" class="img-fluid mt-3">
 			{!! $post->body !!}
             <p>Kategori : <a href="/kategories">{{ $post->kategori->name }} </a></p>
+
+			@endif
+			
 
 		</div>
 	</div>

@@ -21,7 +21,7 @@
                                     class="bi bi-chevron-right"></i></a>
                             <ul>
                                 <li><a href="posts">Pengumuman Informasi</a></li>
-                                <li><a href="#">Modul PJJ </a></li>
+                                <li><a href="modulpjj">Modul PJJ </a></li>
                                 <li><a href="#">PPDB 2023</a></li>
                                 <li><a href="#">Digital Library</a></li>
                                 <li><a href="#">CBT</a></li>

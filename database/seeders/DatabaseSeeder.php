@@ -25,9 +25,12 @@ class DatabaseSeeder extends Seeder
         // 
     User::create([
         'name' => 'Naufal Mahdi',
+        'username' => 'NaufalMahdi',
         'email' => 'naupal11746@gmail.com',
         'password' => bcrypt('12345')
     ]);
+
+    User::Factory(3)->create();
 
     Kategori::create([
         'name' => 'Pertanian',
@@ -42,6 +45,7 @@ class DatabaseSeeder extends Seeder
     Post::create([
         'title' => 'Judul Pertama',
         'slug' => 'judul-pertama',
+        'image' => 'image',
         'excerpt' => 'lorem ipsummmmmmmmmmm',
         'body' => 'loremmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm.',
         'kategori_id' => 1,
