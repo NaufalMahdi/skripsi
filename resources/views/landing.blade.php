@@ -14,7 +14,7 @@
     <section id="about" class="about">
         <div class="container">
 
-            <div class= "row">
+            <div class="row">
                 <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
                     <img src="assets/img/5.jpg" class="img-fluid" alt="">
                 </div>
@@ -25,15 +25,15 @@
                         Saya ucapkan Selamat Datang di Official Website resmi SMPN 1 Jember.
                     </p>
                     <!-- <p class="fst-italic">
-                                                                                                                                                  Data adalah catatan atas kumpulan fakta atau deskripsi dari sesuatu/ kejadian/ kenyataan yang diahadapi berupa angka, karakter,
-                                                                                                                                                  simbol, gambar, peta, tanda, isyarat, tulisan suara, dan bunyi yang mempresentasikan keadaan sebenarnya atau menunjukan suatu ide,
-                                                                                                                                                  objek, kondisi atau situasi.
-                                                                                                                                                  </p> -->
+                                                                                                                                                      Data adalah catatan atas kumpulan fakta atau deskripsi dari sesuatu/ kejadian/ kenyataan yang diahadapi berupa angka, karakter,
+                                                                                                                                                      simbol, gambar, peta, tanda, isyarat, tulisan suara, dan bunyi yang mempresentasikan keadaan sebenarnya atau menunjukan suatu ide,
+                                                                                                                                                      objek, kondisi atau situasi.
+                                                                                                                                                      </p> -->
                     <!-- <ul>
-                                                                                                                                                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                                                                                                                                    <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                                                                                                                                                    <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                                                                                                                                                  </ul> -->
+                                                                                                                                                        <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                                                                                                                                                        <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                                                                                                                                                        <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                                                                                                                                                      </ul> -->
                     <p>
                         Salah satu indikator untuk mengukur keberhasilan suatu pembangunan dapat dilihat dari
                         kondisi data statistik sektoral karena pada dasarnya
@@ -173,9 +173,9 @@
 
             <div class="text-center">
                 <h3>LAYANAN PUBLIK</h3>
-                <p> Layanan Legalisir Ijazah, Layanan Surat Ijin, Layanan Surat Keterangan Aktif, 
+                <p> Layanan Legalisir Ijazah, Layanan Surat Ijin, Layanan Surat Keterangan Aktif,
                     Layanan Surat Rekomendasi, NISN.
-                    </p>
+                </p>
                 <a class="cta-btn" href="#">KLIK DISINI</a>
             </div>
 
@@ -319,71 +319,71 @@
 
     <!-- ======= Pricing Section ======= -->
     <!--<section id="pricing" class="pricing">
-                                                                                                                                            <div class="container">
+                                                                                                                                                <div class="container">
 
-                                                                                                                                              <div class="section-title">
-                                                                                                                                                <span>Pricing</span>
-                                                                                                                                                <h2>Pricing</h2>
-                                                                                                                                                <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
-                                                                                                                                              </div>
-
-                                                                                                                                              <div class="row">
-
-                                                                                                                                                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="150">
-                                                                                                                                                  <div class="box">
-                                                                                                                                                    <h3>Free</h3>
-                                                                                                                                                    <h4><sup>$</sup>0<span> / month</span></h4>
-                                                                                                                                                    <ul>
-                                                                                                                                                      <li>Aida dere</li>
-                                                                                                                                                      <li>Nec feugiat nisl</li>
-                                                                                                                                                      <li>Nulla at volutpat dola</li>
-                                                                                                                                                      <li class="na">Pharetra massa</li>
-                                                                                                                                                      <li class="na">Massa ultricies mi</li>
-                                                                                                                                                    </ul>
-                                                                                                                                                    <div class="btn-wrap">
-                                                                                                                                                      <a href="#" class="btn-buy">Buy Now</a>
-                                                                                                                                                    </div>
+                                                                                                                                                  <div class="section-title">
+                                                                                                                                                    <span>Pricing</span>
+                                                                                                                                                    <h2>Pricing</h2>
+                                                                                                                                                    <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
                                                                                                                                                   </div>
-                                                                                                                                                </div>
 
-                                                                                                                                                <div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="zoom-in">
-                                                                                                                                                  <div class="box featured">
-                                                                                                                                                    <h3>Business</h3>
-                                                                                                                                                    <h4><sup>$</sup>19<span> / month</span></h4>
-                                                                                                                                                    <ul>
-                                                                                                                                                      <li>Aida dere</li>
-                                                                                                                                                      <li>Nec feugiat nisl</li>
-                                                                                                                                                      <li>Nulla at volutpat dola</li>
-                                                                                                                                                      <li>Pharetra massa</li>
-                                                                                                                                                      <li class="na">Massa ultricies mi</li>
-                                                                                                                                                    </ul>
-                                                                                                                                                    <div class="btn-wrap">
-                                                                                                                                                      <a href="#" class="btn-buy">Buy Now</a>
+                                                                                                                                                  <div class="row">
+
+                                                                                                                                                    <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="150">
+                                                                                                                                                      <div class="box">
+                                                                                                                                                        <h3>Free</h3>
+                                                                                                                                                        <h4><sup>$</sup>0<span> / month</span></h4>
+                                                                                                                                                        <ul>
+                                                                                                                                                          <li>Aida dere</li>
+                                                                                                                                                          <li>Nec feugiat nisl</li>
+                                                                                                                                                          <li>Nulla at volutpat dola</li>
+                                                                                                                                                          <li class="na">Pharetra massa</li>
+                                                                                                                                                          <li class="na">Massa ultricies mi</li>
+                                                                                                                                                        </ul>
+                                                                                                                                                        <div class="btn-wrap">
+                                                                                                                                                          <a href="#" class="btn-buy">Buy Now</a>
+                                                                                                                                                        </div>
+                                                                                                                                                      </div>
                                                                                                                                                     </div>
-                                                                                                                                                  </div>
-                                                                                                                                                </div>
 
-                                                                                                                                                <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
-                                                                                                                                                  <div class="box">
-                                                                                                                                                    <h3>Developer</h3>
-                                                                                                                                                    <h4><sup>$</sup>29<span> / month</span></h4>
-                                                                                                                                                    <ul>
-                                                                                                                                                      <li>Aida dere</li>
-                                                                                                                                                      <li>Nec feugiat nisl</li>
-                                                                                                                                                      <li>Nulla at volutpat dola</li>
-                                                                                                                                                      <li>Pharetra massa</li>
-                                                                                                                                                      <li>Massa ultricies mi</li>
-                                                                                                                                                    </ul>
-                                                                                                                                                    <div class="btn-wrap">
-                                                                                                                                                      <a href="#" class="btn-buy">Buy Now</a>
+                                                                                                                                                    <div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="zoom-in">
+                                                                                                                                                      <div class="box featured">
+                                                                                                                                                        <h3>Business</h3>
+                                                                                                                                                        <h4><sup>$</sup>19<span> / month</span></h4>
+                                                                                                                                                        <ul>
+                                                                                                                                                          <li>Aida dere</li>
+                                                                                                                                                          <li>Nec feugiat nisl</li>
+                                                                                                                                                          <li>Nulla at volutpat dola</li>
+                                                                                                                                                          <li>Pharetra massa</li>
+                                                                                                                                                          <li class="na">Massa ultricies mi</li>
+                                                                                                                                                        </ul>
+                                                                                                                                                        <div class="btn-wrap">
+                                                                                                                                                          <a href="#" class="btn-buy">Buy Now</a>
+                                                                                                                                                        </div>
+                                                                                                                                                      </div>
                                                                                                                                                     </div>
+
+                                                                                                                                                    <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
+                                                                                                                                                      <div class="box">
+                                                                                                                                                        <h3>Developer</h3>
+                                                                                                                                                        <h4><sup>$</sup>29<span> / month</span></h4>
+                                                                                                                                                        <ul>
+                                                                                                                                                          <li>Aida dere</li>
+                                                                                                                                                          <li>Nec feugiat nisl</li>
+                                                                                                                                                          <li>Nulla at volutpat dola</li>
+                                                                                                                                                          <li>Pharetra massa</li>
+                                                                                                                                                          <li>Massa ultricies mi</li>
+                                                                                                                                                        </ul>
+                                                                                                                                                        <div class="btn-wrap">
+                                                                                                                                                          <a href="#" class="btn-buy">Buy Now</a>
+                                                                                                                                                        </div>
+                                                                                                                                                      </div>
+                                                                                                                                                    </div>
+
                                                                                                                                                   </div>
+
                                                                                                                                                 </div>
-
-                                                                                                                                              </div>
-
-                                                                                                                                            </div>
-                                                                                                                                          </section>-->
+                                                                                                                                              </section>-->
     <!-- End Pricing Section -->
 
     <!-- ======= Team Section ======= -->

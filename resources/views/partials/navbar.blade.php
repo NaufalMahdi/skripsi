@@ -14,7 +14,8 @@
                 <li><a class="nav-link scrollto " href="#portfolio">Foto</a></li>
                 <li><a class="nav-link scrollto" href="posts">Pengumuman Informasi</a></li>
                 <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
-                <li class="dropdown"><a href="#"><span>Layanan</span> <i class="bi bi-chevron-down"></i></a>
+                <li class="dropdown"><a href="{{ url('layanan') }}"><span>Layanan</span> <i
+                            class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li class="dropdown"><a href="#"><span>Pilihan</span> <i
                                     class="bi bi-chevron-right"></i></a>
