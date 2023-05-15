@@ -8,7 +8,7 @@
 
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a class="nav-link scrollto active" href="{{ url('landing') }}">Beranda</a></li>
+                <li><a class="nav-link scrollto active" href="{{ url('/') }}">Beranda</a></li>
                 <li><a class="nav-link scrollto" href="{{ url('about') }}">Profil</a></li>
                 <li><a class="nav-link scrollto" href="#services">Pengumuman</a></li>
                 <li><a class="nav-link scrollto " href="#portfolio">Foto</a></li>
