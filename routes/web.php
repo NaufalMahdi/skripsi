@@ -28,7 +28,7 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/landing', [LandingPageController::class, 'index']);
+Route::get('/', [LandingPageController::class, 'index']);
 
 Route::get('/about', function () {
     return view('about', [

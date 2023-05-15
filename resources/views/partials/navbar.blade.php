@@ -28,10 +28,10 @@
                             </ul>
                         </li>
                         <li><a href="{{ url('layanan') }}">Layanan Ligalisir</a></li>
-                        <li><a href="#">Layanan Surat Izin</a></li>
-                        <li><a href="#">Layanan Surat Keterangan Aktif</a></li>
-                        <li><a href="#">Layanan Surat Rekomendasi</a></li>
-                        <li><a href="#">NISN</a></li>
+                        <li><a href="{{ url('layanan') }}">Layanan Surat Izin</a></li>
+                        <li><a href="{{ url('layanan') }}">Layanan Surat Keterangan Aktif</a></li>
+                        <li><a href="{{ url('layanan') }}">Layanan Surat Rekomendasi</a></li>
+                        <li><a href="{{ url('layanan') }}">NISN</a></li>
                     </ul>
                 </li>
                 <li><a class="nav-link scrollto" href="#contact">Kontak</a></li>
