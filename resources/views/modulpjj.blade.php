@@ -1,7 +1,11 @@
 @extends('layouts.main')
 
 @section('content')
-    <h3>Sejarah</h3>
+    <div style="width:100%;height:20px;">
+    </div>
+    <center>
+        <h3>MODUL PJJ</h3>
+    </center>
     <div class="container">
         <table class="table table-striped">
             <thead>

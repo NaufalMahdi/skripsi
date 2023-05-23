@@ -11,7 +11,7 @@ class LandingPageController extends Controller
     //
     public function index(Request $request)
     {
-        $name = 'Sekilas Tentang SMP Negeri 1 Jember';
+        $name = 'Sambutan Kepala Sekolah';
         $landing = Post::all();
         return view('landing', compact('name', 'landing'));
     }

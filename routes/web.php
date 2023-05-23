@@ -11,6 +11,13 @@ use App\Http\Controllers\LandingPageController;
 use App\Http\Controllers\LayananController;
 use App\Http\Controllers\ModulPjjController;
 use App\Http\Controllers\ModuleController;
+use App\Http\Controllers\KesiswaanController;
+use App\Http\Controllers\KurikulumController;
+use App\Http\Controllers\FotoController;
+use App\Http\Controllers\DashboardOsisController;
+use App\Http\Controllers\OsisController;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,34 +29,27 @@ use App\Http\Controllers\ModuleController;
 |
 */
 
+//LandingPage
 Route::get('/', function () {
-    return view('landing', [
-        "title" => "Home",
-        'name' => 'Sekilas Tentang SMP Negeri 1 Jember'
-    ]);
+    return view('landing');
 });
+Route::get('/', [LandingPageController::class, 'index'])->name('landing');
 
-Route::get('/', [LandingPageController::class, 'index']);
-
+//About
 Route::get('/about', function () {
-    return view('about', [
-        "title" => "About",
-        "name" => "Naufal Mahdi",
-        "email" => "naufalmahdi@gmail.com",
-        "image" => "naufal.jpg"
-    ]);
+    return view('about');
 });
 
+
+//Layanan
 Route::get('/layanan', function () {
-    return view('layanan', [
-        "title" => "Layanan",
-        "name" => "Naufal Mahdi",
-        "email" => "naufalmahdi@gmail.com",
-        "image" => "naufal.jpg"
-    ]);
+    if (!auth()->user()) {
+        return redirect()->route('login');
+    }
+    return view('layanan');
 });
 
-
+//Post
 Route::get('/posts', [PostController::class, 'index']);
 Route::get('posts/{post:slug}', [PostController::class, 'show']);
 
@@ -61,20 +61,40 @@ Route::get('/kategories', function (Kategori $kategori) {
     ]);
 });
 
+//LoginRegister
 Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class, 'authenticate']);
-Route::post('/logout', [LoginController::class, 'logout']);
-
+Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 Route::get('/register', [RegisterController::class, 'index'])->middleware('guest');
 Route::post('/register', [RegisterController::class, 'store']);
 
 route::get('/dashboard', function () {
+    if (auth()->user()->roles != 'admin') {
+        return redirect()->route('landing');
+    }
     return view('dashboard.index');
 })->middleware('auth');
 
+//Admin
 Route::resource('/dashboard/posts', DashboardPostController::class)->middleware('auth');
+// Route::resource('/dashboard/edit', DashboardPostController::class)->middleware('auth');
 Route::resource('/dashboard/module', ModuleController::class)->middleware('auth');
 Route::get('dashboard/module/download/{module}', [ModulPjjController::class, 'download']);
-
+Route::resource('/dashboard/osis', DashboardOsisController::class)->middleware('auth');
 Route::get('/modulpjj', [ModulPjjController::class, 'index']);
-Route::get('/download/viewfile', [DownloadController::class, 'index']);
+// Route::get('/download/viewfile', [DownloadController::class, 'index']);
+
+//kesiswaan
+Route::get('/osis', [OsisController::class, 'index']);
+Route::get('/tatatertib', [KesiswaanController::class, 'tatatertib']);
+Route::get('/datasiswa', [KesiswaanController::class, 'datasiswa']);
+Route::get('/basket', [KesiswaanController::class, 'basket']);
+Route::get('/futsal', [KesiswaanController::class, 'futsal']);
+Route::get('/marchingband', [KesiswaanController::class, 'marchingband']);
+
+//kurikulum
+Route::get('/informasikurikulum', [KurikulumController::class, 'informasikurikulum']);
+Route::get('/jadwalptm ', [KurikulumController::class, 'jadwalptm']);
+
+//foto
+Route::get('/foto', [FotoController::class, 'foto']);

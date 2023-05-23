@@ -10,15 +10,13 @@
                 <p>Kategori : <a href="/kategories">{{ $post->kategori->name }} </a></p>
 
                 @if ($post->image)
-			<img src="{{ asset('storage/' . $post->image) }}" alt="{{ $post->kategori->name }}" class="img-fluid mt-3">
-
-			@else
-
-			<img src="https://source.unsplash.com/1200x400?{{ $post->kategori->name }}" alt="{{ $post->kategori->name }}" class="img-fluid mt-3">
-			{!! $post->body !!}
-            <p>Kategori : <a href="/kategories">{{ $post->kategori->name }} </a></p>
-
-			@endif
+                    <img src="{{ asset('uploads/' . $post->image) }}" alt="{{ $post->kategori->name }}" class="img-fluid mt-3">
+                @else
+                    <img src="https://source.unsplash.com/1200x400?{{ $post->kategori->name }}"
+                        alt="{{ $post->kategori->name }}" class="img-fluid mt-3">
+                    {!! $post->body !!}
+                    <p>Kategori : <a href="/kategories">{{ $post->kategori->name }} </a></p>
+                @endif
 
                 {!! $post->body !!}
                 <a href="/posts">Back to Posts</a>
